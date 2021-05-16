@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SuccessActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login successful!"
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:fontFamily="serif"
+        android:textColor="#FD0459"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/head"
+
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/head"
+        android:src="@drawable/success"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey "
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/black"
+        android:id="@+id/login_text"
+        ></TextView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Log out"
+        android:layout_below="@id/login_text"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#EDDADA"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn_logout"
+
+        />
+
+</RelativeLayout>
