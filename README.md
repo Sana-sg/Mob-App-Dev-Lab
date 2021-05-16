@@ -1,2 +1,2 @@
 # Mob-App-Dev-Lab
-Solution for Mobile App development Lab 
+Solution for Mobile Application development Laboratory 
