@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rainbow"
+            android:textColor="#f9d423"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:id="@+id/company_name"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/rainbow"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/company_logo"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        >
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#f9d423" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sana Parveen"
+            android:textSize="27sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff6e7f"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textSize="24sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#79CBCA"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:id="@+id/title"/>
+        <View
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="15dp"
+            android:background="#f9d423"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 8123758025"
+            android:textSize="20sp"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/phone_no"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mangalore, Karnataka"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/place"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="psana7869@gmail.com"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/email_id"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
